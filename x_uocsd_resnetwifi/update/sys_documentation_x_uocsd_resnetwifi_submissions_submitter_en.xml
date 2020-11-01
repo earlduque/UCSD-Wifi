@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="submitter" label="Submitter" language="en" table="x_uocsd_resnetwifi_submissions">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>submitter</element>
+            <help/>
+            <hint/>
+            <label>Submitter</label>
+            <language>en</language>
+            <name>x_uocsd_resnetwifi_submissions</name>
+            <plural>Submitters</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-11-01 19:17:17</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1a979a181b1c241406f292c8af4bcb99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Submitter</sys_name>
+            <sys_package display_value="ResNet Wifi Survey" source="x_uocsd_resnetwifi">a17e42d41bd8241406f292c8af4bcb23</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ResNet Wifi Survey">a17e42d41bd8241406f292c8af4bcb23</sys_scope>
+            <sys_update_name>sys_documentation_x_uocsd_resnetwifi_submissions_submitter_en</sys_update_name>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-11-01 19:17:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

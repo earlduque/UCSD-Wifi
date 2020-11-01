@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p>Hello. Please help us assess and improve your wireless experience in the residential areas by completing the following brief survey. Both positive and negative feedback will help. Thanks for your input.</p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>ResNet WiFi Survey</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=312eda141b5c241406f292c8af4bcbb0&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script><![CDATA[/*current.assignment_group = "22f0e856dbb8b6404cd8f06e0f961975";
+current.u_organization = "832cf459db3cc850008c9837db961949";
+current.service_offering = "bc477ef2db08b784dbd6f2b6af9619e5";
+current.short_description = "ResNet Wifi Survey";
+current.contact_type = "web";
+current.u_case_type = "Request";
+current.u_variables_display = true;
+current.u_record_producer = "312eda141b5c241406f292c8af4bcbb0";
+
+***DO NOT REMOVE OR MODIFY THIS SECTION!!! Automatically added by "Force population of record producer used" business rule. 
+Forces population of this record producer sys_id into the target record for reporting purposes.***
+current.u_record_producer = "312eda141b5c241406f292c8af4bcbb0";*/
+
+if (producer.case_requested == 'true'){
+	var case_gr = new GlideRecord('sn_customerservice_case');
+	case_gr.newRecord();
+	case_gr.setValue('short_description', 'ResNet WiFi Survey Case: ' + producer.submitter.getDisplayValue());
+	case_gr.setValue('u_organization', '832cf459db3cc850008c9837db961949');
+	case_gr.setValue('service_offering', 'bc477ef2db08b784dbd6f2b6af9619e5');
+	case_gr.setValue('assignment_group', '22f0e856dbb8b6404cd8f06e0f961975');
+	case_gr.setValue('contact_type', 'web');
+	case_gr.setValue('business_service', '274d2bf9db4c7f44dbd6f2b6af961977');
+	case_gr.setValue('u_case_type', 'Incident');
+	case_gr.setValue('contact', producer.submitter);
+	if (producer.comment) case_gr.comments = 'Is there anything else you would like to tell us about your WiFi experience at UC San Diego or the support experience for WiFi at UC San Diego?\n\n' + producer.comment;
+	var description = [
+		'"In the last week, I could easily connect to WiFi whenever I wanted.": ' + producer.question_easily_connect.getDisplayValue(),
+		'"In the last week, when I was connected to WiFi, it performed well.": ' + producer.question_wifi_performance.getDisplayValue(),
+		'When connected, how often are you kicked off while using WiFi?: ' + producer.question_wifi_disconnects.getDisplayValue()
+	];
+	if (producer.device_computer_type) description.push('Laptop or desktop: ' + producer.device_computer_type.getDisplayValue());
+	if (producer.device_comptuer_os) description.push('Computer Operating System: ' + producer.device_comptuer_os.getDisplayValue());
+	if (producer.device_computer_model) description.push('Computer Model: ' + producer.device_computer_model.getDisplayValue());
+	if (producer.device_phone_os) description.push('Phone Operating System: ' + producer.device_phone_os.getDisplayValue());
+	if (producer.device_phone_model) description.push('Phone Model: ' + producer.device_phone_model.getDisplayValue());
+	case_gr.setValue('description', description.join('\n'));
+	case_gr.work_notes = 'Created automatically via the [code]<a href="/its?id=sc_cat_item&sys_id=312eda141b5c241406f292c8af4bcbb0" target="_blank">ResNet Wireless Survey</a>[/code]. Survey record that generated this case can be found [code]<a href="/x_uocsd_resnetwifi_submissions.do?sys_id=6a6c9a501b5c241406f292c8af4bcb7b" target="_blank">here</a>[/code].';
+	current.case_record = case_gr.insert();
+}]]></script>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-11-01 19:46:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>312eda141b5c241406f292c8af4bcbb0</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>ResNet WiFi Survey</sys_name>
+        <sys_package display_value="ResNet Wifi Survey" source="x_uocsd_resnetwifi">a17e42d41bd8241406f292c8af4bcb23</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ResNet Wifi Survey">a17e42d41bd8241406f292c8af4bcb23</sys_scope>
+        <sys_update_name>sc_cat_item_producer_312eda141b5c241406f292c8af4bcbb0</sys_update_name>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-11-01 22:13:50</sys_updated_on>
+        <table_name>x_uocsd_resnetwifi_submissions</table_name>
+        <template/>
+        <type>item</type>
+        <u_customer_closable>false</u_customer_closable>
+        <u_service_offering/>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=312eda141b5c241406f292c8af4bcbb0"/>
+    <fx_price action="delete_multiple" query="id=312eda141b5c241406f292c8af4bcbb0"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>312eda141b5c241406f292c8af4bcbb0</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-11-01 19:46:36</sys_created_on>
+        <sys_id>3f4e9ed01b5c241406f292c8af4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-11-01 19:46:36</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>312eda141b5c241406f292c8af4bcbb0</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-11-01 19:46:36</sys_created_on>
+        <sys_id>b34e9ed01b5c241406f292c8af4bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-11-01 19:46:36</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

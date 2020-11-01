@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_uocsd_resnetwifi_140</description>
+        <name>x_uocsd_resnetwifi_140</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-11-01 19:17:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>45971a181b1c241406f292c8af4bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_uocsd_resnetwifi_140</sys_name>
+        <sys_package display_value="ResNet Wifi Survey" source="x_uocsd_resnetwifi">a17e42d41bd8241406f292c8af4bcb23</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ResNet Wifi Survey">a17e42d41bd8241406f292c8af4bcb23</sys_scope>
+        <sys_update_name>sys_security_acl_45971a181b1c241406f292c8af4bcb0f</sys_update_name>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-11-01 19:17:12</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ResNet Wifi Survey">a17e42d41bd8241406f292c8af4bcb23</application>
+        <file_path/>
+        <instance_id>7588cb2c4fea9680401199701310c77a</instance_id>
+        <instance_name>ucsddev</instance_name>
+        <name>sys_security_acl_45971a181b1c241406f292c8af4bcb0f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_uocsd_resnetwifi_140</description><name>x_uocsd_resnetwifi_140</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>eduque</sys_created_by><sys_created_on>2020-11-01 19:17:12</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>45971a181b1c241406f292c8af4bcb0f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_uocsd_resnetwifi_140</sys_name><sys_package display_value="ResNet Wifi Survey" source="x_uocsd_resnetwifi">a17e42d41bd8241406f292c8af4bcb23</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="ResNet Wifi Survey">a17e42d41bd8241406f292c8af4bcb23</sys_scope><sys_update_name>sys_security_acl_45971a181b1c241406f292c8af4bcb0f</sys_update_name><sys_updated_by>eduque</sys_updated_by><sys_updated_on>2020-11-01 19:17:12</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1886493891</payload_hash>
+        <record_name>x_uocsd_resnetwifi_140</record_name>
+        <reverted_from/>
+        <source>f57e86981bd8241406f292c8af4bcbb2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-11-01 19:17:12</sys_created_on>
+        <sys_id>85971a181b1c241406f292c8af4bcb13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175853df94a0000001</sys_recorded_at>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-11-01 19:17:12</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>8d971a18b51c2414720367008aa66a12</update_guid>
+        <update_guid_history>8d971a18b51c2414720367008aa66a12:1886493891</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-11-01 19:30:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>990e6b4bae744d3c9100c0e73e599610</sys_id>
+        <sys_metadata>45971a181b1c241406f292c8af4bcb0f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_uocsd_resnetwifi_140</sys_name>
+        <sys_package display_value="ResNet Wifi Survey" source="x_uocsd_resnetwifi">a17e42d41bd8241406f292c8af4bcb23</sys_package>
+        <sys_parent display_value="">01971a181b1c241406f292c8af4bcb18</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ResNet Wifi Survey">a17e42d41bd8241406f292c8af4bcb23</sys_scope>
+        <sys_scope_delete display_value="">220e09ad88fe420080fc0d563b73e100</sys_scope_delete>
+        <sys_update_name>sys_security_acl_45971a181b1c241406f292c8af4bcb0f</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_45971a181b1c241406f292c8af4bcb0f">85971a181b1c241406f292c8af4bcb13</sys_update_version>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-11-01 19:30:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

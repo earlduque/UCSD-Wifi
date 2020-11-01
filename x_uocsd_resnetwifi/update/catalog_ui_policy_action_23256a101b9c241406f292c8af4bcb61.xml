@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="ResNet WiFi Survey">312eda141b5c241406f292c8af4bcbb0</catalog_item>
+        <catalog_variable>IO:67616e581b5c241406f292c8af4bcbc1</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-11-01 20:16:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>23256a101b9c241406f292c8af4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>computer</sys_name>
+        <sys_package display_value="ResNet Wifi Survey" source="x_uocsd_resnetwifi">a17e42d41bd8241406f292c8af4bcb23</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ResNet Wifi Survey">a17e42d41bd8241406f292c8af4bcb23</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_23256a101b9c241406f292c8af4bcb61</sys_update_name>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-11-01 20:16:49</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show device questions">750566101b9c241406f292c8af4bcb62</ui_policy>
+        <variable>computer</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

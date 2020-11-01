@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="ResNet WiFi Survey">312eda141b5c241406f292c8af4bcbb0</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-11-01 19:46:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>085ede141b5c241406f292c8af4bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ResNet WiFi Survey.SN Senior Leadership</sys_name>
+        <sys_package display_value="ResNet Wifi Survey" source="x_uocsd_resnetwifi">a17e42d41bd8241406f292c8af4bcb23</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ResNet Wifi Survey">a17e42d41bd8241406f292c8af4bcb23</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_085ede141b5c241406f292c8af4bcb0f</sys_update_name>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-11-01 19:46:37</sys_updated_on>
+        <user_criteria display_value="SN Senior Leadership">ea787f4ddb22f74006037a131f9619b4</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>
