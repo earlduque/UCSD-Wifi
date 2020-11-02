@@ -25,14 +25,14 @@
         <sys_created_by>eduque</sys_created_by>
         <sys_created_on>2020-11-01 18:37:23</sys_created_on>
         <sys_id>a17e42d41bd8241406f292c8af4bcb23</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>eduque</sys_updated_by>
-        <sys_updated_on>2020-11-02 20:32:39</sys_updated_on>
+        <sys_updated_on>2020-11-02 20:57:57</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
     </sys_app>
 </record_update>
