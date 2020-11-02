@@ -10,7 +10,7 @@
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p>Hello. Please help us assess and improve your wireless experience in the residential areas by completing the following brief survey. Both positive and negative feedback will help. Thanks for your input.</p>]]></description>
+        <description><![CDATA[<p>Please help us assess and improve your wireless experience in the residential areas by completing the following brief survey. Both positive and negative feedback will help. Thanks for your input.</p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -91,7 +91,7 @@ if (producer.case_requested == 'true'){
 	if (producer.device_phone_os) description.push('Phone Operating System: ' + producer.device_phone_os.getDisplayValue());
 	if (producer.device_phone_model) description.push('Phone Model: ' + producer.device_phone_model.getDisplayValue());
 	case_gr.setValue('description', description.join('\n'));
-	case_gr.work_notes = 'Created automatically via the [code]<a href="/its?id=sc_cat_item&sys_id=312eda141b5c241406f292c8af4bcbb0" target="_blank">ResNet Wireless Survey</a>[/code]. Survey record that generated this case can be found [code]<a href="/x_uocsd_resnetwifi_submissions.do?sys_id=6a6c9a501b5c241406f292c8af4bcb7b" target="_blank">here</a>[/code].';
+	case_gr.work_notes = 'Created automatically via the [code]<a href="/its?id=sc_cat_item&sys_id=312eda141b5c241406f292c8af4bcbb0" target="_blank">ResNet Wireless Survey</a>[/code]. Survey record that generated this case can be found here: [code]<a href="/x_uocsd_resnetwifi_submissions.do?sys_id=' + current.sys_id + '" target="_blank">' + current.number + '</a>[/code].';
 	current.case_record = case_gr.insert();
 }]]></script>
         <short_description/>
@@ -102,7 +102,7 @@ if (producer.case_requested == 'true'){
         <sys_created_on>2020-11-01 19:46:36</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>312eda141b5c241406f292c8af4bcbb0</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>ResNet WiFi Survey</sys_name>
         <sys_package display_value="ResNet Wifi Survey" source="x_uocsd_resnetwifi">a17e42d41bd8241406f292c8af4bcb23</sys_package>
         <sys_policy/>
@@ -110,7 +110,7 @@ if (producer.case_requested == 'true'){
         <sys_scope display_value="ResNet Wifi Survey">a17e42d41bd8241406f292c8af4bcb23</sys_scope>
         <sys_update_name>sc_cat_item_producer_312eda141b5c241406f292c8af4bcbb0</sys_update_name>
         <sys_updated_by>eduque</sys_updated_by>
-        <sys_updated_on>2020-11-01 23:31:47</sys_updated_on>
+        <sys_updated_on>2020-11-02 19:56:24</sys_updated_on>
         <table_name>x_uocsd_resnetwifi_submissions</table_name>
         <template/>
         <type>item</type>

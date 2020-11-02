@@ -11,7 +11,7 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice/>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Phone Operating System</column_label>
@@ -32,7 +32,7 @@
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
         <max_length>100</max_length>
         <name>x_uocsd_resnetwifi_submissions</name>
@@ -55,7 +55,7 @@
         <sys_created_on>2020-11-01 19:28:53</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>aff99e541b1c241406f292c8af4bcbb1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Phone Operating System</sys_name>
         <sys_package display_value="ResNet Wifi Survey" source="x_uocsd_resnetwifi">a17e42d41bd8241406f292c8af4bcb23</sys_package>
         <sys_policy/>
@@ -63,7 +63,7 @@
         <sys_scope display_value="ResNet Wifi Survey">a17e42d41bd8241406f292c8af4bcb23</sys_scope>
         <sys_update_name>sys_dictionary_x_uocsd_resnetwifi_submissions_device_phone_os</sys_update_name>
         <sys_updated_by>eduque</sys_updated_by>
-        <sys_updated_on>2020-11-01 19:41:47</sys_updated_on>
+        <sys_updated_on>2020-11-02 19:38:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

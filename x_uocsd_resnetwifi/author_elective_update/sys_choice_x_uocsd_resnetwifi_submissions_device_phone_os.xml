@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="device_phone_os" table="x_uocsd_resnetwifi_submissions" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>device_phone_os</element>
+            <name>x_uocsd_resnetwifi_submissions</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-11-02 19:35:42</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>f96523601b10e41406f292c8af4bcb76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>device_phone_os</sys_name>
+            <sys_package display_value="ResNet Wifi Survey" source="x_uocsd_resnetwifi">a17e42d41bd8241406f292c8af4bcb23</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ResNet Wifi Survey">a17e42d41bd8241406f292c8af4bcb23</sys_scope>
+            <sys_update_name>sys_choice_x_uocsd_resnetwifi_submissions_device_phone_os</sys_update_name>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-11-02 19:35:42</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>device_phone_os</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Android</label>
+            <language>en</language>
+            <name>x_uocsd_resnetwifi_submissions</name>
+            <sequence>100</sequence>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-11-02 19:35:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>68552fe01b10e41406f292c8af4bcb8a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-11-02 19:35:49</sys_updated_on>
+            <u_organization/>
+            <value>android</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>device_phone_os</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>iOS</label>
+            <language>en</language>
+            <name>x_uocsd_resnetwifi_submissions</name>
+            <sequence>200</sequence>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-11-02 19:35:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca652f201b10e41406f292c8af4bcb0c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-11-02 19:36:03</sys_updated_on>
+            <u_organization/>
+            <value>ios</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>device_phone_os</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_uocsd_resnetwifi_submissions</name>
+            <sequence>300</sequence>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-11-02 19:36:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7975efe01b10e41406f292c8af4bcb75</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-11-02 19:36:31</sys_updated_on>
+            <u_organization/>
+            <value>other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
