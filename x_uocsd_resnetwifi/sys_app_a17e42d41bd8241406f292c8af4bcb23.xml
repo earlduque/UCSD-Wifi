@@ -18,16 +18,16 @@
         <scoped_administration>false</scoped_administration>
         <short_description/>
         <source>x_uocsd_resnetwifi</source>
-        <store_correlation_id/>
+        <store_correlation_id>REPOAPP0000305548</store_correlation_id>
         <store_url/>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>eduque</sys_created_by>
         <sys_created_on>2020-11-01 18:37:23</sys_created_on>
         <sys_id>a17e42d41bd8241406f292c8af4bcb23</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>eduque</sys_updated_by>
-        <sys_updated_on>2020-11-02 20:21:30</sys_updated_on>
+        <sys_updated_on>2020-11-02 20:23:35</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
