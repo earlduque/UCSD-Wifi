@@ -28,7 +28,7 @@
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
         <name>ResNet WiFi Survey</name>
-        <no_attachment_v2>false</no_attachment_v2>
+        <no_attachment_v2>true</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
         <no_delivery_time_v2>false</no_delivery_time_v2>
@@ -38,7 +38,7 @@
         <no_quantity>false</no_quantity>
         <no_quantity_v2>false</no_quantity_v2>
         <no_search>false</no_search>
-        <no_wishlist_v2>false</no_wishlist_v2>
+        <no_wishlist_v2>true</no_wishlist_v2>
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
@@ -73,17 +73,18 @@ if (producer.case_requested == 'true'){
 	case_gr.setValue('short_description', 'ResNet WiFi Survey Case: ' + producer.submitter.getDisplayValue());
 	case_gr.setValue('u_organization', '832cf459db3cc850008c9837db961949');
 	case_gr.setValue('service_offering', 'bc477ef2db08b784dbd6f2b6af9619e5');
-	case_gr.setValue('assignment_group', '22f0e856dbb8b6404cd8f06e0f961975');
+	case_gr.setValue('assignment_group', '092a44fadbd35200dbd6f2b6af9619d2');
 	case_gr.setValue('contact_type', 'web');
 	case_gr.setValue('business_service', '274d2bf9db4c7f44dbd6f2b6af961977');
 	case_gr.setValue('u_case_type', 'Incident');
 	case_gr.setValue('contact', producer.submitter);
 	if (producer.comment) case_gr.comments = 'Is there anything else you would like to tell us about your WiFi experience at UC San Diego or the support experience for WiFi at UC San Diego?\n\n' + producer.comment;
-	var description = [
-		'"In the last week, I could easily connect to WiFi whenever I wanted.": ' + producer.question_easily_connect.getDisplayValue(),
-		'"In the last week, when I was connected to WiFi, it performed well.": ' + producer.question_wifi_performance.getDisplayValue(),
-		'When connected, how often are you kicked off while using WiFi?: ' + producer.question_wifi_disconnects.getDisplayValue()
-	];
+	var score = (parseInt(producer.question_easily_connected_score) + parseInt(producer.question_wifi_performance_score) + parseInt(producer.question_wifi_disconnects_score))/3;
+	var description = [];
+	description.push('"In the last week, I could easily connect to WiFi whenever I wanted.": ' + producer.question_easily_connected_score.getDisplayValue() + ' (' + producer.question_easily_connected_score +')');
+	description.push('"In the last week, when I was connected to WiFi, it performed well.": ' + producer.question_wifi_performance_score.getDisplayValue() + ' (' + producer.question_wifi_performance_score +')');
+	description.push('When connected, how often are you kicked off while using WiFi?: ' + producer.question_wifi_disconnects_score.getDisplayValue() + ' (' + producer.question_wifi_disconnects_score +')');
+	description.push('Average Score (1 is best): ' + score.toFixed(2) + '\n');
 	if (producer.device_computer_type) description.push('Laptop or desktop: ' + producer.device_computer_type.getDisplayValue());
 	if (producer.device_comptuer_os) description.push('Computer Operating System: ' + producer.device_comptuer_os.getDisplayValue());
 	if (producer.device_computer_model) description.push('Computer Model: ' + producer.device_computer_model.getDisplayValue());
@@ -101,7 +102,7 @@ if (producer.case_requested == 'true'){
         <sys_created_on>2020-11-01 19:46:36</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>312eda141b5c241406f292c8af4bcbb0</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>ResNet WiFi Survey</sys_name>
         <sys_package display_value="ResNet Wifi Survey" source="x_uocsd_resnetwifi">a17e42d41bd8241406f292c8af4bcb23</sys_package>
         <sys_policy/>
@@ -109,7 +110,7 @@ if (producer.case_requested == 'true'){
         <sys_scope display_value="ResNet Wifi Survey">a17e42d41bd8241406f292c8af4bcb23</sys_scope>
         <sys_update_name>sc_cat_item_producer_312eda141b5c241406f292c8af4bcbb0</sys_update_name>
         <sys_updated_by>eduque</sys_updated_by>
-        <sys_updated_on>2020-11-01 22:13:50</sys_updated_on>
+        <sys_updated_on>2020-11-01 23:31:47</sys_updated_on>
         <table_name>x_uocsd_resnetwifi_submissions</table_name>
         <template/>
         <type>item</type>

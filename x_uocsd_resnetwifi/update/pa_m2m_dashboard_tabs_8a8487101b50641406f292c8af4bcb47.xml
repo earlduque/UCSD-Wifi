@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="ResNet WiFi Survey">6664c3101b50641406f292c8af4bcba0</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-11-01 22:33:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8a8487101b50641406f292c8af4bcb47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6664c3101b50641406f292c8af4bcba0</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ResNet Wifi Survey" source="x_uocsd_resnetwifi">a17e42d41bd8241406f292c8af4bcb23</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ResNet Wifi Survey">a17e42d41bd8241406f292c8af4bcb23</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_8a8487101b50641406f292c8af4bcb47</sys_update_name>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-11-01 22:33:36</sys_updated_on>
+        <tab display_value="ResNet WiFi Survey - New Tab">0a848fdc1b10641406f292c8af4bcbe2</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

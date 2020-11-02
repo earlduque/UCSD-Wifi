@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="question_easily_connected_score" table="x_uocsd_resnetwifi_submissions" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>question_easily_connected_score</element>
+            <name>x_uocsd_resnetwifi_submissions</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-11-01 22:49:15</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>171843941b50641406f292c8af4bcbf1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>question_easily_connected_score</sys_name>
+            <sys_package display_value="ResNet Wifi Survey" source="x_uocsd_resnetwifi">a17e42d41bd8241406f292c8af4bcb23</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ResNet Wifi Survey">a17e42d41bd8241406f292c8af4bcb23</sys_scope>
+            <sys_update_name>sys_choice_x_uocsd_resnetwifi_submissions_question_easily_connected_score</sys_update_name>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-11-01 22:49:15</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>question_easily_connected_score</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Strongly Agree</label>
+            <language>en</language>
+            <name>x_uocsd_resnetwifi_submissions</name>
+            <sequence>0</sequence>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-11-01 22:49:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db1843941b50641406f292c8af4bcbf0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-11-01 22:49:15</sys_updated_on>
+            <u_organization/>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>question_easily_connected_score</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Agree</label>
+            <language>en</language>
+            <name>x_uocsd_resnetwifi_submissions</name>
+            <sequence>1</sequence>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-11-01 22:49:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f1843941b50641406f292c8af4bcbf2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-11-01 22:49:16</sys_updated_on>
+            <u_organization/>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>question_easily_connected_score</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Disagree</label>
+            <language>en</language>
+            <name>x_uocsd_resnetwifi_submissions</name>
+            <sequence>2</sequence>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-11-01 22:49:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>131843941b50641406f292c8af4bcbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-11-01 22:49:16</sys_updated_on>
+            <u_organization/>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>question_easily_connected_score</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Strongly Disagree</label>
+            <language>en</language>
+            <name>x_uocsd_resnetwifi_submissions</name>
+            <sequence>3</sequence>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-11-01 22:49:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>931843941b50641406f292c8af4bcbf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-11-01 22:49:16</sys_updated_on>
+            <u_organization/>
+            <value>4</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

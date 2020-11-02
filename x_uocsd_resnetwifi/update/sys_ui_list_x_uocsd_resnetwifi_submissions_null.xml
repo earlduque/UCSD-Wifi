@@ -3,257 +3,272 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">16a08b981b10641406f292c8af4bcbaa</list_id>
+            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">45db4b1c1b50641406f292c8af4bcb16</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>eduque</sys_created_by>
-            <sys_created_on>2020-11-01 22:16:41</sys_created_on>
-            <sys_id>d2a08b981b10641406f292c8af4bcbab</sys_id>
+            <sys_created_on>2020-11-01 23:05:29</sys_created_on>
+            <sys_id>05db4b1c1b50641406f292c8af4bcb17</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>eduque</sys_updated_by>
-            <sys_updated_on>2020-11-01 22:16:41</sys_updated_on>
+            <sys_updated_on>2020-11-01 23:05:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>submitter</element>
-            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">16a08b981b10641406f292c8af4bcbaa</list_id>
+            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">45db4b1c1b50641406f292c8af4bcb16</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>eduque</sys_created_by>
-            <sys_created_on>2020-11-01 22:16:41</sys_created_on>
-            <sys_id>5aa08b981b10641406f292c8af4bcbab</sys_id>
+            <sys_created_on>2020-11-01 23:05:29</sys_created_on>
+            <sys_id>89db4b1c1b50641406f292c8af4bcb17</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>eduque</sys_updated_by>
-            <sys_updated_on>2020-11-01 22:16:41</sys_updated_on>
+            <sys_updated_on>2020-11-01 23:05:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>email</element>
-            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">16a08b981b10641406f292c8af4bcbaa</list_id>
+            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">45db4b1c1b50641406f292c8af4bcb16</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>eduque</sys_created_by>
-            <sys_created_on>2020-11-01 22:16:41</sys_created_on>
-            <sys_id>daa08b981b10641406f292c8af4bcbab</sys_id>
+            <sys_created_on>2020-11-01 23:05:29</sys_created_on>
+            <sys_id>0ddb4b1c1b50641406f292c8af4bcb17</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>eduque</sys_updated_by>
-            <sys_updated_on>2020-11-01 22:16:41</sys_updated_on>
+            <sys_updated_on>2020-11-01 23:05:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>pid</element>
-            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">16a08b981b10641406f292c8af4bcbaa</list_id>
+            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">45db4b1c1b50641406f292c8af4bcb16</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>eduque</sys_created_by>
-            <sys_created_on>2020-11-01 22:16:41</sys_created_on>
-            <sys_id>5ea08b981b10641406f292c8af4bcbab</sys_id>
+            <sys_created_on>2020-11-01 23:05:29</sys_created_on>
+            <sys_id>8ddb4b1c1b50641406f292c8af4bcb17</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>eduque</sys_updated_by>
-            <sys_updated_on>2020-11-01 22:16:41</sys_updated_on>
+            <sys_updated_on>2020-11-01 23:05:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>question_easily_connect</element>
-            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">16a08b981b10641406f292c8af4bcbaa</list_id>
+            <element>question_easily_connected_score</element>
+            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">45db4b1c1b50641406f292c8af4bcb16</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>eduque</sys_created_by>
-            <sys_created_on>2020-11-01 22:16:41</sys_created_on>
-            <sys_id>dea08b981b10641406f292c8af4bcbab</sys_id>
+            <sys_created_on>2020-11-01 23:05:29</sys_created_on>
+            <sys_id>01db4b1c1b50641406f292c8af4bcb18</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>eduque</sys_updated_by>
-            <sys_updated_on>2020-11-01 22:16:41</sys_updated_on>
+            <sys_updated_on>2020-11-01 23:05:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>question_wifi_performance</element>
-            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">16a08b981b10641406f292c8af4bcbaa</list_id>
+            <element>question_wifi_performance_score</element>
+            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">45db4b1c1b50641406f292c8af4bcb16</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>eduque</sys_created_by>
-            <sys_created_on>2020-11-01 22:16:41</sys_created_on>
-            <sys_id>52a08b981b10641406f292c8af4bcbac</sys_id>
+            <sys_created_on>2020-11-01 23:05:29</sys_created_on>
+            <sys_id>81db4b1c1b50641406f292c8af4bcb18</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>eduque</sys_updated_by>
-            <sys_updated_on>2020-11-01 22:16:41</sys_updated_on>
+            <sys_updated_on>2020-11-01 23:05:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>question_wifi_disconnects</element>
-            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">16a08b981b10641406f292c8af4bcbaa</list_id>
+            <element>question_wifi_disconnects_score</element>
+            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">45db4b1c1b50641406f292c8af4bcb16</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>eduque</sys_created_by>
-            <sys_created_on>2020-11-01 22:16:41</sys_created_on>
-            <sys_id>d2a08b981b10641406f292c8af4bcbac</sys_id>
+            <sys_created_on>2020-11-01 23:05:29</sys_created_on>
+            <sys_id>05db4b1c1b50641406f292c8af4bcb18</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>eduque</sys_updated_by>
-            <sys_updated_on>2020-11-01 22:16:41</sys_updated_on>
+            <sys_updated_on>2020-11-01 23:05:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>device_computer_type</element>
-            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">16a08b981b10641406f292c8af4bcbaa</list_id>
+            <element>score</element>
+            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">45db4b1c1b50641406f292c8af4bcb16</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
             <sum>false</sum>
             <sys_created_by>eduque</sys_created_by>
-            <sys_created_on>2020-11-01 22:16:41</sys_created_on>
-            <sys_id>56a08b981b10641406f292c8af4bcbac</sys_id>
+            <sys_created_on>2020-11-01 23:05:29</sys_created_on>
+            <sys_id>85db4b1c1b50641406f292c8af4bcb18</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>eduque</sys_updated_by>
-            <sys_updated_on>2020-11-01 22:16:41</sys_updated_on>
+            <sys_updated_on>2020-11-01 23:05:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>device_comptuer_os</element>
-            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">16a08b981b10641406f292c8af4bcbaa</list_id>
+            <element>device_computer_type</element>
+            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">45db4b1c1b50641406f292c8af4bcb16</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
             <sum>false</sum>
             <sys_created_by>eduque</sys_created_by>
-            <sys_created_on>2020-11-01 22:16:41</sys_created_on>
-            <sys_id>d6a08b981b10641406f292c8af4bcbac</sys_id>
+            <sys_created_on>2020-11-01 23:05:29</sys_created_on>
+            <sys_id>09db4b1c1b50641406f292c8af4bcb18</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>eduque</sys_updated_by>
-            <sys_updated_on>2020-11-01 22:16:41</sys_updated_on>
+            <sys_updated_on>2020-11-01 23:05:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>device_computer_model</element>
-            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">16a08b981b10641406f292c8af4bcbaa</list_id>
+            <element>device_comptuer_os</element>
+            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">45db4b1c1b50641406f292c8af4bcb16</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>9</position>
             <sum>false</sum>
             <sys_created_by>eduque</sys_created_by>
-            <sys_created_on>2020-11-01 22:16:41</sys_created_on>
-            <sys_id>5aa08b981b10641406f292c8af4bcbac</sys_id>
+            <sys_created_on>2020-11-01 23:05:29</sys_created_on>
+            <sys_id>89db4b1c1b50641406f292c8af4bcb18</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>eduque</sys_updated_by>
-            <sys_updated_on>2020-11-01 22:16:41</sys_updated_on>
+            <sys_updated_on>2020-11-01 23:05:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>device_phone_os</element>
-            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">16a08b981b10641406f292c8af4bcbaa</list_id>
+            <element>device_computer_model</element>
+            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">45db4b1c1b50641406f292c8af4bcb16</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>10</position>
             <sum>false</sum>
             <sys_created_by>eduque</sys_created_by>
-            <sys_created_on>2020-11-01 22:16:41</sys_created_on>
-            <sys_id>daa08b981b10641406f292c8af4bcbac</sys_id>
+            <sys_created_on>2020-11-01 23:05:29</sys_created_on>
+            <sys_id>0ddb4b1c1b50641406f292c8af4bcb18</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>eduque</sys_updated_by>
-            <sys_updated_on>2020-11-01 22:16:41</sys_updated_on>
+            <sys_updated_on>2020-11-01 23:05:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>device_phone_model</element>
-            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">16a08b981b10641406f292c8af4bcbaa</list_id>
+            <element>device_phone_os</element>
+            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">45db4b1c1b50641406f292c8af4bcb16</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>11</position>
             <sum>false</sum>
             <sys_created_by>eduque</sys_created_by>
-            <sys_created_on>2020-11-01 22:16:41</sys_created_on>
-            <sys_id>5ea08b981b10641406f292c8af4bcbac</sys_id>
+            <sys_created_on>2020-11-01 23:05:29</sys_created_on>
+            <sys_id>8ddb4b1c1b50641406f292c8af4bcb18</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>eduque</sys_updated_by>
-            <sys_updated_on>2020-11-01 22:16:41</sys_updated_on>
+            <sys_updated_on>2020-11-01 23:05:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>comment</element>
-            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">16a08b981b10641406f292c8af4bcbaa</list_id>
+            <element>device_phone_model</element>
+            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">45db4b1c1b50641406f292c8af4bcb16</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>12</position>
             <sum>false</sum>
             <sys_created_by>eduque</sys_created_by>
-            <sys_created_on>2020-11-01 22:16:41</sys_created_on>
-            <sys_id>dea08b981b10641406f292c8af4bcbac</sys_id>
+            <sys_created_on>2020-11-01 23:05:29</sys_created_on>
+            <sys_id>01db4b1c1b50641406f292c8af4bcb19</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>eduque</sys_updated_by>
-            <sys_updated_on>2020-11-01 22:16:41</sys_updated_on>
+            <sys_updated_on>2020-11-01 23:05:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>case_requested</element>
-            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">16a08b981b10641406f292c8af4bcbaa</list_id>
+            <element>comment</element>
+            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">45db4b1c1b50641406f292c8af4bcb16</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>13</position>
             <sum>false</sum>
             <sys_created_by>eduque</sys_created_by>
-            <sys_created_on>2020-11-01 22:16:41</sys_created_on>
-            <sys_id>52a08b981b10641406f292c8af4bcbad</sys_id>
+            <sys_created_on>2020-11-01 23:05:29</sys_created_on>
+            <sys_id>81db4b1c1b50641406f292c8af4bcb19</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>eduque</sys_updated_by>
-            <sys_updated_on>2020-11-01 22:16:41</sys_updated_on>
+            <sys_updated_on>2020-11-01 23:05:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>case_record</element>
-            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">16a08b981b10641406f292c8af4bcbaa</list_id>
+            <element>case_requested</element>
+            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">45db4b1c1b50641406f292c8af4bcb16</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>14</position>
             <sum>false</sum>
             <sys_created_by>eduque</sys_created_by>
-            <sys_created_on>2020-11-01 22:16:41</sys_created_on>
-            <sys_id>d2a08b981b10641406f292c8af4bcbad</sys_id>
+            <sys_created_on>2020-11-01 23:05:29</sys_created_on>
+            <sys_id>05db4b1c1b50641406f292c8af4bcb19</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>eduque</sys_updated_by>
-            <sys_updated_on>2020-11-01 22:16:41</sys_updated_on>
+            <sys_updated_on>2020-11-01 23:05:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>case_record.state</element>
-            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">16a08b981b10641406f292c8af4bcbaa</list_id>
+            <element>case_record</element>
+            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">45db4b1c1b50641406f292c8af4bcb16</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>15</position>
             <sum>false</sum>
             <sys_created_by>eduque</sys_created_by>
-            <sys_created_on>2020-11-01 22:16:41</sys_created_on>
-            <sys_id>56a08b981b10641406f292c8af4bcbad</sys_id>
+            <sys_created_on>2020-11-01 23:05:29</sys_created_on>
+            <sys_id>85db4b1c1b50641406f292c8af4bcb19</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>eduque</sys_updated_by>
-            <sys_updated_on>2020-11-01 22:16:41</sys_updated_on>
+            <sys_updated_on>2020-11-01 23:05:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_created_on</element>
-            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">16a08b981b10641406f292c8af4bcbaa</list_id>
+            <element>case_record.state</element>
+            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">45db4b1c1b50641406f292c8af4bcb16</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>16</position>
             <sum>false</sum>
             <sys_created_by>eduque</sys_created_by>
-            <sys_created_on>2020-11-01 22:16:41</sys_created_on>
-            <sys_id>d6a08b981b10641406f292c8af4bcbad</sys_id>
+            <sys_created_on>2020-11-01 23:05:29</sys_created_on>
+            <sys_id>09db4b1c1b50641406f292c8af4bcb19</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>eduque</sys_updated_by>
-            <sys_updated_on>2020-11-01 22:16:41</sys_updated_on>
+            <sys_updated_on>2020-11-01 23:05:29</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_uocsd_resnetwifi_submissions" element="NULL" name="x_uocsd_resnetwifi_submissions" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">45db4b1c1b50641406f292c8af4bcb16</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>17</position>
+            <sum>false</sum>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-11-01 23:05:29</sys_created_on>
+            <sys_id>89db4b1c1b50641406f292c8af4bcb19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-11-01 23:05:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -267,11 +282,11 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>eduque</sys_created_by>
-            <sys_created_on>2020-11-01 22:16:41</sys_created_on>
+            <sys_created_on>2020-11-01 23:05:29</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>16a08b981b10641406f292c8af4bcbaa</sys_id>
+            <sys_id>45db4b1c1b50641406f292c8af4bcb16</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_uocsd_resnetwifi_submissions</sys_name>
             <sys_package display_value="ResNet Wifi Survey" source="x_uocsd_resnetwifi">a17e42d41bd8241406f292c8af4bcb23</sys_package>
@@ -280,7 +295,7 @@
             <sys_scope display_value="ResNet Wifi Survey">a17e42d41bd8241406f292c8af4bcb23</sys_scope>
             <sys_update_name>sys_ui_list_x_uocsd_resnetwifi_submissions_null</sys_update_name>
             <sys_updated_by>eduque</sys_updated_by>
-            <sys_updated_on>2020-11-01 22:16:41</sys_updated_on>
+            <sys_updated_on>2020-11-01 23:05:29</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

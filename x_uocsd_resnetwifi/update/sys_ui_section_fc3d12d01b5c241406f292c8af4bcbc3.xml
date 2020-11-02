@@ -1,58 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Survey" section_id="fc3d12d01b5c241406f292c8af4bcbc3" sys_domain="global" table="x_uocsd_resnetwifi_submissions" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>question_easily_connect</element>
+            <element>question_easily_connected_score</element>
             <position>0</position>
             <sys_created_by>eduque</sys_created_by>
-            <sys_created_on>2020-11-01 19:41:46</sys_created_on>
-            <sys_id>c53d52d01b5c241406f292c8af4bcbef</sys_id>
+            <sys_created_on>2020-11-01 22:50:27</sys_created_on>
+            <sys_id>4d680b941b50641406f292c8af4bcb9d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Survey" display_value="Survey" name="x_uocsd_resnetwifi_submissions" sys_domain="global" view="Default view">fc3d12d01b5c241406f292c8af4bcbc3</sys_ui_section>
             <sys_updated_by>eduque</sys_updated_by>
-            <sys_updated_on>2020-11-01 19:41:46</sys_updated_on>
+            <sys_updated_on>2020-11-01 22:50:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>question_wifi_performance</element>
+            <element>question_wifi_performance_score</element>
             <position>1</position>
             <sys_created_by>eduque</sys_created_by>
-            <sys_created_on>2020-11-01 19:41:46</sys_created_on>
-            <sys_id>4d3d52d01b5c241406f292c8af4bcbef</sys_id>
+            <sys_created_on>2020-11-01 22:50:27</sys_created_on>
+            <sys_id>c1680b941b50641406f292c8af4bcb9e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Survey" display_value="Survey" name="x_uocsd_resnetwifi_submissions" sys_domain="global" view="Default view">fc3d12d01b5c241406f292c8af4bcbc3</sys_ui_section>
             <sys_updated_by>eduque</sys_updated_by>
-            <sys_updated_on>2020-11-01 19:41:46</sys_updated_on>
+            <sys_updated_on>2020-11-01 22:50:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>question_wifi_disconnects</element>
+            <element>question_wifi_disconnects_score</element>
             <position>2</position>
             <sys_created_by>eduque</sys_created_by>
-            <sys_created_on>2020-11-01 19:41:46</sys_created_on>
-            <sys_id>c13d52d01b5c241406f292c8af4bcbf0</sys_id>
+            <sys_created_on>2020-11-01 22:50:27</sys_created_on>
+            <sys_id>49680b941b50641406f292c8af4bcb9e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Survey" display_value="Survey" name="x_uocsd_resnetwifi_submissions" sys_domain="global" view="Default view">fc3d12d01b5c241406f292c8af4bcbc3</sys_ui_section>
             <sys_updated_by>eduque</sys_updated_by>
-            <sys_updated_on>2020-11-01 19:41:46</sys_updated_on>
+            <sys_updated_on>2020-11-01 22:50:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>score</element>
+            <position>3</position>
+            <sys_created_by>eduque</sys_created_by>
+            <sys_created_on>2020-11-01 22:50:27</sys_created_on>
+            <sys_id>cd680b941b50641406f292c8af4bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Survey" display_value="Survey" name="x_uocsd_resnetwifi_submissions" sys_domain="global" view="Default view">fc3d12d01b5c241406f292c8af4bcbc3</sys_ui_section>
+            <sys_updated_by>eduque</sys_updated_by>
+            <sys_updated_on>2020-11-01 22:50:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>comment</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>eduque</sys_created_by>
-            <sys_created_on>2020-11-01 19:41:46</sys_created_on>
-            <sys_id>493d52d01b5c241406f292c8af4bcbf0</sys_id>
+            <sys_created_on>2020-11-01 22:50:27</sys_created_on>
+            <sys_id>45680b941b50641406f292c8af4bcb9f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Survey" display_value="Survey" name="x_uocsd_resnetwifi_submissions" sys_domain="global" view="Default view">fc3d12d01b5c241406f292c8af4bcbc3</sys_ui_section>
             <sys_updated_by>eduque</sys_updated_by>
-            <sys_updated_on>2020-11-01 19:41:46</sys_updated_on>
+            <sys_updated_on>2020-11-01 22:50:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

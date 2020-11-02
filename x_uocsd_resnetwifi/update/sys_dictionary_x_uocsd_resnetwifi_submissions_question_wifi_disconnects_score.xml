@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="question_easily_connect" table="x_uocsd_resnetwifi_submissions">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="question_wifi_disconnects_score" table="x_uocsd_resnetwifi_submissions">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
+        <calculation/>
         <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>I could easily connect to WiFi whenever I wanted</column_label>
+        <column_label>When connected how often did WiFi kick me off</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,12 +22,12 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>question_easily_connect</element>
+        <element>question_wifi_disconnects_score</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Choice">choice</internal_type>
+        <internal_type display_value="Integer">integer</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_uocsd_resnetwifi_submissions</name>
@@ -52,18 +47,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>eduque</sys_created_by>
-        <sys_created_on>2020-11-01 19:28:51</sys_created_on>
+        <sys_created_on>2020-11-01 22:49:15</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>ab599ad81b1c241406f292c8af4bcb7a</sys_id>
+        <sys_id>5f1843941b50641406f292c8af4bcbc2</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>I could easily connect to WiFi whenever I wanted</sys_name>
+        <sys_name>When connected how often did WiFi kick me off</sys_name>
         <sys_package display_value="ResNet Wifi Survey" source="x_uocsd_resnetwifi">a17e42d41bd8241406f292c8af4bcb23</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ResNet Wifi Survey">a17e42d41bd8241406f292c8af4bcb23</sys_scope>
-        <sys_update_name>sys_dictionary_x_uocsd_resnetwifi_submissions_question_easily_connect</sys_update_name>
+        <sys_update_name>sys_dictionary_x_uocsd_resnetwifi_submissions_question_wifi_disconnects_score</sys_update_name>
         <sys_updated_by>eduque</sys_updated_by>
-        <sys_updated_on>2020-11-01 19:41:46</sys_updated_on>
+        <sys_updated_on>2020-11-01 22:49:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
