@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_uocsd_resnetwifi.ResNet_Survey</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ResNet_Survey</name>
+        <script><![CDATA[var ResNet_Survey = Class.create();
+ResNet_Survey.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	get_past: function(x0){
+		var x = this.getParameter('sysparm_x') || x0;
+		var result = '';
+		var get_gr = new GlideRecord('x_uocsd_resnetwifi_submissions');
+		get_gr.addEncodedQuery('submitter=' + x);
+		get_gr.orderByDesc('sys_created_on');
+		get_gr.setLimit(1);
+		get_gr.query();
+		if (get_gr.next()){
+			var fields = ['question_easily_connected_score','question_wifi_performance_score','question_wifi_disconnects_score','device_comptuer_os','device_computer_model','device_computer_type','device_phone_os','device_phone_model','case_requested','case_record','comment'];
+			var past = [];
+			for (var i in fields){
+				if (get_gr.getDisplayValue(fields[i]) != null && get_gr.getDisplayValue(fields[i]) != '') past.push(get_gr[fields[i]].getLabel() + ": " + get_gr.getDisplayValue(fields[i]));
+			}
+			result = past.join('\n');
+		}
+		return result;
+	},
+
+	type: 'ResNet_Survey'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>eduque</sys_created_by>
+        <sys_created_on>2020-11-06 23:19:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0e27b0021b98641006f292c8af4bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ResNet_Survey</sys_name>
+        <sys_package display_value="ResNet Wifi Survey" source="x_uocsd_resnetwifi">a17e42d41bd8241406f292c8af4bcb23</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ResNet Wifi Survey">a17e42d41bd8241406f292c8af4bcb23</sys_scope>
+        <sys_update_name>sys_script_include_0e27b0021b98641006f292c8af4bcb67</sys_update_name>
+        <sys_updated_by>eduque</sys_updated_by>
+        <sys_updated_on>2020-11-06 23:19:18</sys_updated_on>
+    </sys_script_include>
+</record_update>

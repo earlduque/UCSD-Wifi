@@ -95,9 +95,8 @@ if (producer.case_requested == 'true'){
 	case_gr.setValue('description', description.join('\n'));
 	case_gr.work_notes = 'Created automatically via the [code]<a href="/its?id=sc_cat_item&sys_id=312eda141b5c241406f292c8af4bcbb0" target="_blank">ResNet Wireless Survey</a>[/code]. Survey record that generated this case can be found here: [code]<a href="/x_uocsd_resnetwifi_submissions.do?sys_id=' + current.sys_id + '" target="_blank">' + current.number + '</a>[/code].';
 	current.case_record = case_gr.insert();
-} else {
-	producer.portal_redirect = "its"
-}]]></script>
+}
+producer.portal_redirect = "?id=ucsd_confirmation&table=x_uocsd_resnetwifi_submissions&sys_id=" + current.sys_id + "&fields=number,submitter,question_easily_connected_score,question_wifi_performance_score,question_wifi_disconnects_score,device_comptuer_os,device_computer_model,device_computer_type,device_phone_os,device_phone_model,case_requested,case_record,comment&hide_empty=true&return_url=%3Fid%3Dsc_cat_item%26sys_id%3D312eda141b5c241406f292c8af4bcbb0&return_text=Return%20to%20ResNet%20WiFi%20Survey";]]></script>
         <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
@@ -106,7 +105,7 @@ if (producer.case_requested == 'true'){
         <sys_created_on>2020-11-01 19:46:36</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>312eda141b5c241406f292c8af4bcbb0</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name>ResNet WiFi Survey</sys_name>
         <sys_package display_value="ResNet Wifi Survey" source="x_uocsd_resnetwifi">a17e42d41bd8241406f292c8af4bcb23</sys_package>
         <sys_policy/>
@@ -114,7 +113,7 @@ if (producer.case_requested == 'true'){
         <sys_scope display_value="ResNet Wifi Survey">a17e42d41bd8241406f292c8af4bcb23</sys_scope>
         <sys_update_name>sc_cat_item_producer_312eda141b5c241406f292c8af4bcbb0</sys_update_name>
         <sys_updated_by>eduque</sys_updated_by>
-        <sys_updated_on>2020-11-02 20:56:30</sys_updated_on>
+        <sys_updated_on>2020-11-06 22:25:00</sys_updated_on>
         <table_name>x_uocsd_resnetwifi_submissions</table_name>
         <template/>
         <type>item</type>

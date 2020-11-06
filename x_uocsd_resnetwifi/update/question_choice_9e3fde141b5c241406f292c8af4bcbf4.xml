@@ -2,7 +2,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order>100</order>
-        <question display_value="&quot;In the last week, I could easily connect to WiFi whenever I wanted.&quot;">3efe56941b5c241406f292c8af4bcb06</question>
+        <question display_value="In the last week, I could easily connect to WiFi whenever I wanted.">3efe56941b5c241406f292c8af4bcb06</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>eduque</sys_created_by>
